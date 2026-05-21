@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # EvgenoFit Privacy Policy
 
-**Effective date:** 10 May 2026
+**Effective date:** 21 May 2026
 
 This page describes what data EvgenoFit collects, how we use it, and the choices you have.
 
@@ -22,7 +22,6 @@ When you sign in with Apple, we receive:
 
 - A unique user identifier issued by Apple. We store this so we can attach your training data to your account.
 - An email address you choose to share with us during Sign in with Apple. This may be your real email or a private relay address provided by Apple. We never see your password.
-- A first name and last name you choose to share at first sign-in. This is optional, only requested once, and used internally to associate the account with your training data.
 
 ### Training data you create
 
