@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # EvgenoFit Privacy Policy
 
-**Effective date:** 21 May 2026
+**Effective date:** 10 June 2026
 
 This page describes what data EvgenoFit collects, how we use it, and the choices you have.
 
@@ -27,8 +27,10 @@ When you sign in with Apple, we receive:
 
 When you log workouts in the app we store, under your account only:
 
-- Workout sessions (start time, end time, optional notes).
-- Sets you record (exercise identifier, reps, weight in kilograms, RPE rating, timestamp).
+- Workout sessions (start time, end time, optional notes, optional reference to the workout template the session was started from).
+- Sets you record (exercise identifier, the tracking type used, and only the fields that tracking type requires — reps and weight in kilograms for a standard set, duration in seconds for a timed exercise, distance in meters for a distance exercise, or reps for a bodyweight exercise — plus a server-side timestamp).
+- Custom exercises you create (name, the muscle group you assigned, the tracking type you chose, and any optional cues or notes you typed).
+- Saved workouts you build (name, the ordered list of exercises you put in it, optional notes).
 - Your preferred weight unit (kilograms or pounds).
 - The date your account was created.
 
@@ -48,8 +50,8 @@ If the app crashes, we receive a crash report through Firebase Crashlytics. The 
 We use the data above only to:
 
 - Sign you in and keep you signed in across launches.
-- Save your training history, preferences, and personal records to your account.
-- Show that data back to you in Dashboard, Sessions log, and Settings.
+- Save your training history, custom exercises, saved workouts, preferences, and personal records to your account.
+- Show that data back to you on the Dashboard, the Workouts tab, the History tab, and Settings.
 - Diagnose and fix crashes (via Crashlytics).
 
 We do not use your data for advertising, profiling, or any third-party purpose.
@@ -74,7 +76,7 @@ We do not share your data with any other third parties.
 
 You can:
 
-- See your training data inside the app at any time (Dashboard and Sessions log).
+- See your training data inside the app at any time (Dashboard, Workouts, History).
 - Sign out of the app from Settings.
 - Permanently delete your account and all training data from Settings, with no manual intervention from us.
 - Contact us at evgenofit@gmail.com with any questions about your data.
